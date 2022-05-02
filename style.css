@@ -1,0 +1,19 @@
+h1 {
+  color: green;
+}
+
+[title="да, да уже CSS"] {
+  border: 10px solid red;
+}
+
+#lgn {
+  background-color: blue;
+}
+
+.attention {
+  color: blueviolet;
+}
+
+p#title.attention {
+  font-style: italic;
+}

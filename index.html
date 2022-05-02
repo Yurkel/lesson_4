@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <h1>Селекторы</h1>
+  <h2 title="да, да уже CSS">CSS</h2>
+
+  <div>
+    <label for="lgn">Логин</label>
+    <input id="lgn" type="text" name="lgn" placeholder="Логин" required>
+  </div>
+
+  <p class="attention" id="title">виды селекторов</p>
+
+  <P>По тегу:
+    h1 {
+    color: green;
+    } - присваевает стиль определенному указаному тегу</P>
+  <P>По атрибуту: [title="да, да уже CSS"] {
+    border: 10px solid red;
+    } - присваевает стиль определенному указаному атрибуту</P>
+  <P>по id: #lgn {
+    background-color: blue;
+    } - присваевает стиль определенному указаному id</P>
+  <P>по классу: .attention {
+    color: blueviolet;
+    } - присваевает стиль определенному указаному классу</P>
+  <P>смешанный: p#title.attention {
+    font-style: italic;
+    } - - присваевает стиль указзанным нескольким селекторам</P>
+
+</body>
+
+</html>
