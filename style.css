@@ -1,19 +1,43 @@
-h1 {
-  color: green;
+p {
+  font-size: large;
+  font-style: inherit;
+  color: aqua;
 }
 
-[title="да, да уже CSS"] {
-  border: 10px solid red;
+[class="usual"] {
+  color: bisque;
+  background-color: black;
 }
 
-#lgn {
-  background-color: blue;
+#imt {
+  font-style: italic;
 }
 
-.attention {
+#hap {
+  font-style: italic;
   color: blueviolet;
 }
 
-p#title.attention {
-  font-style: italic;
+#att {
+  color: brown;
+}
+
+p#aw {
+  color: rgb(251, 255, 1);
+}
+
+.warning {
+  color: blueviolet;
+}
+
+p#imt.warning {
+  color: blue;
+  font-size: x-large;
+  background-color: orange;
+}
+
+p#imt {
+  color: darkgreen;
+  font-size: xx-large;
+  background-color: orange;
 }
