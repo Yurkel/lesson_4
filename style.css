@@ -2,6 +2,10 @@ p {
   font-size: 20px;
 }
 
+p {
+  font-size: x-small;
+}
+
 p.warning {
   color: violet;
   font-weight: bolder;
@@ -44,4 +48,10 @@ p.usual-warning {
   text-transform: uppercase;
   font-weight: bolder;
   background-color: gray;
+}
+
+div>b {
+  font-style: italic;
+  color: khaki;
+  font-size: xx-large;
 }
