@@ -1,43 +1,47 @@
 p {
-  font-size: large;
-  font-style: inherit;
-  color: aqua;
+  font-size: 20px;
 }
 
-[class="usual"] {
-  color: bisque;
-  background-color: black;
+p.warning {
+  color: violet;
+  font-weight: bolder;
+  background-color: gray;
 }
 
-#imt {
-  font-style: italic;
-}
-
-#hap {
-  font-style: italic;
-  color: blueviolet;
-}
-
-#att {
-  color: brown;
-}
-
-p#aw {
-  color: rgb(251, 255, 1);
-}
-
-.warning {
-  color: blueviolet;
-}
-
-p#imt.warning {
+.importent {
   color: blue;
-  font-size: x-large;
-  background-color: orange;
+  text-transform: uppercase;
 }
 
-p#imt {
+.usual {
+  font-style: italic;
+}
+
+p.attention {
   color: darkgreen;
   font-size: xx-large;
   background-color: orange;
+}
+
+p.warning[id="wrn"] {
+  color: red;
+  font-size: large;
+  font-style: inherit
+}
+
+p#us.usual {
+  color: orangered;
+  font-size: large;
+  font-size: x-large;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+p.usual-warning {
+  color: aqua;
+  font-size: large;
+  font-size: x-large;
+  text-transform: uppercase;
+  font-weight: bolder;
+  background-color: gray;
 }
